@@ -94,7 +94,7 @@ body {
     height: 180px;
     object-fit: cover;
     border: 5px solid #3882F6;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 /* QUOTE */
@@ -114,5 +114,44 @@ body {
     text-align: right;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* BUTTON */
+
+.button-container {
+    background-color: #3882F6;
+    margin: 100px 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.button-container .sign-up {
+    border: 2px solid white;
+}
+
+.button-text {
+    color: white;
+}
+
+.button-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.button-subtitle {
+    margin-top: 0px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 30px;
 }
 
