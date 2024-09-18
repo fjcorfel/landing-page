@@ -97,3 +97,22 @@ body {
     border-radius: 12px;
 }
 
+/* QUOTE */
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 110px 320px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-name {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
